@@ -1,0 +1,19 @@
+language: scala
+
+scala:
+  - 2.10.7
+  - 2.11.12
+  - 2.12.4
+
+jdk:
+  - oraclejdk8
+
+branches:
+  only:
+    - master
+
+cache:
+  directories:
+    - $HOME/.ivy2/cache
+    - $HOME/.sbt/boot
+    - $HOME/.coursier
